@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FBE36BC5-13A6-4373-0620-0230EFB5A62F" name="Miasto">
+<createdBy>Admin</createdBy>
+<createdTime>2023-06-25 12:39:37 UTC</createdTime>
+<generatorID>EAE0E03B-F002-EE30-17F2-94563522C25E</generatorID>
+<ownerDesignName>baza</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="miasto_id" id="4DC486ED-DAF7-66C3-EF8D-9193A50D6168">
+<createdBy>Admin</createdBy>
+<createdTime>2023-06-25 12:39:37 UTC</createdTime>
+<generatorID>6C833394-2CC1-88EB-4F64-962F8B387F48</generatorID>
+<ownerDesignName>baza</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>1BF11A5C-4785-70CA-F27D-9162F2DBE85B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="miasto" id="8212C169-70EE-D421-CF6C-A92AD3B30563">
+<createdBy>Admin</createdBy>
+<createdTime>2023-06-25 12:39:37 UTC</createdTime>
+<generatorID>1E178831-074E-D6AC-76B2-90E095598BD4</generatorID>
+<ownerDesignName>baza</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Wojewodztwo_woj_id" id="2678EFEC-8E5C-BDFF-5D97-BE37D18E6A77">
+<createdBy>Admin</createdBy>
+<createdTime>2023-06-25 12:39:37 UTC</createdTime>
+<generatorID>374E01B6-2F46-8840-FF9C-1F0D5EA6ADC0</generatorID>
+<ownerDesignName>baza</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>1BF11A5C-4785-70CA-F27D-9162F2DBE85B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D8149313-0D53-F750-92B2-72B74BEAAC23" referredColumn="879A7A8E-FB80-D149-2B97-1AC87CD42083"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0C7F23C8-9B85-D716-8A48-25A959863D41" name="Miasto_PK">
+<createdBy>Admin</createdBy>
+<createdTime>2023-06-25 12:39:37 UTC</createdTime>
+<generatorID>904FF175-64E5-1B2F-B2B9-A482E34F49E0</generatorID>
+<ownerDesignName>baza</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4DC486ED-DAF7-66C3-EF8D-9193A50D6168"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="539E9573-B515-F0A0-9770-064F62F245EC" name="Miasto_Wojewodztwo_FK">
+<createdBy>Admin</createdBy>
+<createdTime>2023-06-25 12:39:37 UTC</createdTime>
+<generatorID>D0087DD9-114B-7802-5559-CF9C962AD40F</generatorID>
+<ownerDesignName>baza</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2678EFEC-8E5C-BDFF-5D97-BE37D18E6A77"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

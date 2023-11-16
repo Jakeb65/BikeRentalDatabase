@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="E9DC82D2-CE6A-F172-8B94-39E172DD0D5E" containerWithKeyObject="2D0D5225-60B1-A73C-4AB8-6E00D02300E5" localFKIndex="882BE626-B946-6C49-0E97-4E06BEA3BAA2" name="Wypozyczenia_Wypozyczalnia_FK">
+<createdBy>Admin</createdBy>
+<createdTime>2023-06-25 12:39:37 UTC</createdTime>
+<generatorID>A6B817CA-478A-8306-1531-5A30DC61A25D</generatorID>
+<ownerDesignName>baza</ownerDesignName>
+<referredTableLongName>Wypozyczalnia</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>EB08F360-611A-B326-E3F1-221533701825</referredTableID>
+<keyObject>BD15FEE2-EC1B-828A-DA2F-C4C377E142CE</keyObject>
+<referredKeyID>BD15FEE2-EC1B-828A-DA2F-C4C377E142CE</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>wypozyczalnia_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

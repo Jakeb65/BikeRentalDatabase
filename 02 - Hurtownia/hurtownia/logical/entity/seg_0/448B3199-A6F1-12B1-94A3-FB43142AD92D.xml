@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="448B3199-A6F1-12B1-94A3-FB43142AD92D" name="h_Typ">
+<createdBy>Admin</createdBy>
+<createdTime>2023-06-19 11:39:50 UTC</createdTime>
+<ownerDesignName>hurtownia</ownerDesignName>
+<engineerTo>
+<item key="E887C3ED-EF1C-D44E-5B38-4E26312EEDFD" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="typ_id" id="8BC6B0E3-E33D-FF36-CB51-84DE9E9977A8">
+<createdBy>Admin</createdBy>
+<createdTime>2023-06-19 11:39:57 UTC</createdTime>
+<ownerDesignName>hurtownia</ownerDesignName>
+<engineerTo>
+<item key="E887C3ED-EF1C-D44E-5B38-4E26312EEDFD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="rodzaj" id="9F583196-7E12-D807-36B4-C9872277EF3A">
+<createdBy>Admin</createdBy>
+<createdTime>2023-06-19 11:40:03 UTC</createdTime>
+<ownerDesignName>hurtownia</ownerDesignName>
+<engineerTo>
+<item key="E887C3ED-EF1C-D44E-5B38-4E26312EEDFD" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>2C646479-B2F2-0424-AE39-1F48C491365C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="14D5340E-AB2A-3AD3-5833-DC72801CB420" name="Typ PK">
+<createdBy>Admin</createdBy>
+<createdTime>2023-06-19 11:40:02 UTC</createdTime>
+<ownerDesignName>hurtownia</ownerDesignName>
+<engineerTo>
+<item key="E887C3ED-EF1C-D44E-5B38-4E26312EEDFD" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>8BC6B0E3-E33D-FF36-CB51-84DE9E9977A8</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,135 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7FDB3DD0-C3EA-B76C-1CB2-9C5770D3041A" name="Klient">
+<createdBy>Admin</createdBy>
+<createdTime>2023-06-17 11:02:15 UTC</createdTime>
+<generatorID>D3489DFB-58A7-39ED-74F9-026DFC8C10E6</generatorID>
+<ownerDesignName>baza</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="klient_id" id="AA3629DB-DCF9-6221-F290-81495282C180">
+<createdBy>Admin</createdBy>
+<createdTime>2023-06-17 11:02:15 UTC</createdTime>
+<generatorID>007D63B7-84DA-BAF8-C99F-E58746B45194</generatorID>
+<ownerDesignName>baza</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>1BF11A5C-4785-70CA-F27D-9162F2DBE85B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="imie" id="654BC192-52E4-483B-4E4E-6A8CB1DC8424">
+<createdBy>Admin</createdBy>
+<createdTime>2023-06-17 11:02:15 UTC</createdTime>
+<generatorID>19783C3F-4246-2633-E25B-121C9D549247</generatorID>
+<ownerDesignName>baza</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>2C646479-B2F2-0424-AE39-1F48C491365C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nazwisko" id="906868AE-F27C-AF05-D845-EF4373D4F8C4">
+<createdBy>Admin</createdBy>
+<createdTime>2023-06-17 11:02:15 UTC</createdTime>
+<generatorID>BB1265DA-FF9F-C4F3-4317-C722FA0EC429</generatorID>
+<ownerDesignName>baza</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>2C646479-B2F2-0424-AE39-1F48C491365C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nr_telefonu" id="41DD7660-3851-427A-12F8-576C0B350CD0">
+<createdBy>Admin</createdBy>
+<createdTime>2023-06-17 11:02:15 UTC</createdTime>
+<generatorID>67717F5B-733F-448B-F462-EC0CE0D6E5DF</generatorID>
+<ownerDesignName>baza</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>7E6C9A8E-0F21-7940-C592-886E2850754E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nr_budynku" id="2E1FA7C7-62F3-1D75-B71C-0271B1229CDD">
+<createdBy>Admin</createdBy>
+<createdTime>2023-06-17 11:02:15 UTC</createdTime>
+<generatorID>D18E4F7F-E8FA-D7D5-7468-FC9A25323B3B</generatorID>
+<ownerDesignName>baza</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>0732437A-E8E4-D2E3-1F9D-9564E3EA03C5</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nr_mieszkania" id="366A72B0-79EC-12C3-4BED-C1891E1F8B69">
+<createdBy>Admin</createdBy>
+<createdTime>2023-06-17 11:02:15 UTC</createdTime>
+<generatorID>69C4606C-0D48-BC83-302C-AED9D5DCEF68</generatorID>
+<ownerDesignName>baza</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>0732437A-E8E4-D2E3-1F9D-9564E3EA03C5</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="kod_pocztowy" id="258A20FB-7794-4BC7-3798-2456D5557FCD">
+<createdBy>Admin</createdBy>
+<createdTime>2023-06-17 11:02:15 UTC</createdTime>
+<generatorID>B0D5EB26-9516-CDF8-1CFB-23A0E27DDEB2</generatorID>
+<ownerDesignName>baza</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>970E1DBC-6292-44C8-4E4C-48E5206E6E9D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Ulica_ulica_id" id="5E12EF4B-F56C-48C4-D71F-E1A7D953FA9C">
+<createdBy>Admin</createdBy>
+<createdTime>2023-06-17 11:02:15 UTC</createdTime>
+<generatorID>10973AE1-E2A9-4317-0579-1C8DA734B9E8</generatorID>
+<ownerDesignName>baza</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>1BF11A5C-4785-70CA-F27D-9162F2DBE85B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F25DD099-9DC9-5886-EA26-3DB071EAED2A" referredColumn="09C9E13A-6F26-464D-8C58-9EDA9B753188"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2FF440ED-EB48-9511-E9F6-C739562E304D" name="Klient_PK">
+<createdBy>Admin</createdBy>
+<createdTime>2023-06-17 11:02:15 UTC</createdTime>
+<generatorID>E38D1DB8-6156-CDC4-0053-1DB8622CB335</generatorID>
+<ownerDesignName>baza</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AA3629DB-DCF9-6221-F290-81495282C180"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6E9C9690-088A-F12D-9305-275B127BAF0C" name="Klient_Ulica_FK">
+<createdBy>Admin</createdBy>
+<createdTime>2023-06-17 11:02:15 UTC</createdTime>
+<generatorID>FE8DD61B-58C4-985D-A7E4-00133FFD9749</generatorID>
+<ownerDesignName>baza</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5E12EF4B-F56C-48C4-D71F-E1A7D953FA9C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

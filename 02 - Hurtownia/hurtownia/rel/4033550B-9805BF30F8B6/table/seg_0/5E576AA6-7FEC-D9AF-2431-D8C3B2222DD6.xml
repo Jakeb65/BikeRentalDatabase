@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5E576AA6-7FEC-D9AF-2431-D8C3B2222DD6" name="h_Rower">
+<createdBy>Admin</createdBy>
+<createdTime>2023-06-25 23:02:56 UTC</createdTime>
+<generatorID>18915771-D490-E954-4153-C5EA0FB661EA</generatorID>
+<ownerDesignName>hurtownia</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="rower_id" id="690C20D5-095A-E8F1-432B-8F03A292122C">
+<createdBy>Admin</createdBy>
+<createdTime>2023-06-25 23:02:56 UTC</createdTime>
+<generatorID>D3BB7F8E-A7EE-5D2B-71C7-591111811BEE</generatorID>
+<ownerDesignName>hurtownia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nr_seryjny" id="5E8F6631-8C4E-8967-1E2F-7072665EE62D">
+<createdBy>Admin</createdBy>
+<createdTime>2023-06-25 23:02:56 UTC</createdTime>
+<generatorID>E120B133-5546-AD4C-87A3-639F67BB5CF6</generatorID>
+<ownerDesignName>hurtownia</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+<ownDataTypeParameters>4,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="rok_produkcji" id="8110F3A9-1843-C3BF-33F9-EBC20FE01109">
+<createdBy>Admin</createdBy>
+<createdTime>2023-06-26 18:08:57 UTC</createdTime>
+<ownerDesignName>hurtownia</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+<ownDataTypeParameters>4,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9DF98F22-829B-3EBA-BF8A-98DC8F756E1C" name="h_Rower_PK">
+<createdBy>Admin</createdBy>
+<createdTime>2023-06-25 23:02:56 UTC</createdTime>
+<generatorID>A4798DF8-F6CF-EC6C-3F17-5E941D10F4F3</generatorID>
+<ownerDesignName>hurtownia</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="690C20D5-095A-E8F1-432B-8F03A292122C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="803A92BC-D4CA-7A66-84C1-FBB07FA8743E" name="h_Wypozyczalnia">
+<createdBy>Admin</createdBy>
+<createdTime>2023-06-19 10:58:05 UTC</createdTime>
+<ownerDesignName>hurtownia</ownerDesignName>
+<engineerTo>
+<item key="4033550B-FAE2-B945-E5FC-9805BF30F8B6" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="wyp_alnia_id" id="34AADC34-DB4C-9C4F-2C19-44015A895FCA">
+<createdBy>Admin</createdBy>
+<createdTime>2023-06-19 10:58:11 UTC</createdTime>
+<ownerDesignName>hurtownia</ownerDesignName>
+<engineerTo>
+<item key="4033550B-FAE2-B945-E5FC-9805BF30F8B6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+<ownDataTypeParameters>4,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nazwa_wyp" id="790882DB-3E76-7E8B-8AEB-088E129188E1">
+<createdBy>Admin</createdBy>
+<createdTime>2023-06-19 11:13:11 UTC</createdTime>
+<ownerDesignName>hurtownia</ownerDesignName>
+<engineerTo>
+<item key="4033550B-FAE2-B945-E5FC-9805BF30F8B6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>2C646479-B2F2-0424-AE39-1F48C491365C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ulica_id" id="EECF93D1-A885-6340-B914-6E95B115CD8F">
+<createdBy>Admin</createdBy>
+<createdTime>2023-06-25 23:02:27 UTC</createdTime>
+<generatorID>E9B63070-6F03-DD39-2C1F-F702B31A1691</generatorID>
+<ownerDesignName>hurtownia</ownerDesignName>
+<engineerTo>
+<item key="4033550B-FAE2-B945-E5FC-9805BF30F8B6" value="true"/>
+</engineerTo>
+<referedAttribute>B9BCBAED-2D48-058A-CBC5-CF9A405911AB</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="ABAB7D61-AC93-4438-8726-69FFEEA0C3BF" name="Wypozyczalnia PK">
+<createdBy>Admin</createdBy>
+<createdTime>2023-06-19 10:58:16 UTC</createdTime>
+<ownerDesignName>hurtownia</ownerDesignName>
+<engineerTo>
+<item key="4033550B-FAE2-B945-E5FC-9805BF30F8B6" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>34AADC34-DB4C-9C4F-2C19-44015A895FCA</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

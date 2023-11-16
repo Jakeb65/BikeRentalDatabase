@@ -1,0 +1,51 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="912FC110-2DE3-441C-C411-AAC9FAD35696" name="h_Miesiac_wyp">
+<createdBy>Admin</createdBy>
+<createdTime>2023-06-25 23:02:56 UTC</createdTime>
+<generatorID>D3535D9E-4C00-EC01-B6B1-756A8BEA4751</generatorID>
+<ownerDesignName>hurtownia</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="miesiac_wyp_id" id="62648B37-6579-E575-049C-63AB1845C08B">
+<createdBy>Admin</createdBy>
+<createdTime>2023-06-25 23:02:56 UTC</createdTime>
+<generatorID>9503494D-FE5E-C0CE-0ECD-4F5494FDEFE8</generatorID>
+<ownerDesignName>hurtownia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="miesiac" id="6ED8706E-1989-E06F-E5FC-095936B97B33">
+<createdBy>Admin</createdBy>
+<createdTime>2023-06-25 23:02:56 UTC</createdTime>
+<generatorID>40B95613-B824-8BB8-90A7-F4477C4EA51B</generatorID>
+<ownerDesignName>hurtownia</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D84CB928-75C8-4539-3E8E-0B87A6299DFC" name="h_Miesiac_wyp_PK">
+<createdBy>Admin</createdBy>
+<createdTime>2023-06-25 23:02:56 UTC</createdTime>
+<generatorID>EB3A7F54-D75E-B222-06A4-C46CF7CB3223</generatorID>
+<ownerDesignName>hurtownia</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="62648B37-6579-E575-049C-63AB1845C08B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

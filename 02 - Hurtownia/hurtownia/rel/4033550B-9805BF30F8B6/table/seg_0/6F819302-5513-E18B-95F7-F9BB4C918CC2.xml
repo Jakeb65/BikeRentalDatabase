@@ -1,0 +1,50 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6F819302-5513-E18B-95F7-F9BB4C918CC2" name="h_Ulica">
+<createdBy>Admin</createdBy>
+<createdTime>2023-06-25 23:02:56 UTC</createdTime>
+<generatorID>8426D604-35FA-3662-931B-6EA66D3D129A</generatorID>
+<ownerDesignName>hurtownia</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ulica_id" id="711940AE-010C-090B-47F5-7D0ECE36D825">
+<createdBy>Admin</createdBy>
+<createdTime>2023-06-25 23:02:56 UTC</createdTime>
+<generatorID>B9BCBAED-2D48-058A-CBC5-CF9A405911AB</generatorID>
+<ownerDesignName>hurtownia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+<ownDataTypeParameters>4,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ulica" id="6D7C7411-5054-455F-0BAC-B384405BF353">
+<createdBy>Admin</createdBy>
+<createdTime>2023-06-25 23:02:56 UTC</createdTime>
+<generatorID>C9C6E9A0-6CE4-AC16-7433-13E6DC74762A</generatorID>
+<ownerDesignName>hurtownia</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>2C646479-B2F2-0424-AE39-1F48C491365C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7C28E9AD-32E8-8990-8577-3F353C149013" name="h_Ulica_PK">
+<createdBy>Admin</createdBy>
+<createdTime>2023-06-25 23:02:56 UTC</createdTime>
+<generatorID>DBE4B8D0-163F-5CBA-4D11-671DFBD9CB7A</generatorID>
+<ownerDesignName>hurtownia</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="711940AE-010C-090B-47F5-7D0ECE36D825"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

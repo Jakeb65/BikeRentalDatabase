@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="32EEB8C6-A217-8738-2709-1B7941339C88" containerWithKeyObject="2D0D5225-60B1-A73C-4AB8-6E00D02300E5" localFKIndex="F53969C2-B605-B272-A3DF-F7BC77153EB8" name="Wypozyczenia_Rower_FK">
+<createdBy>Admin</createdBy>
+<createdTime>2023-06-25 12:39:37 UTC</createdTime>
+<generatorID>7BFC5122-209F-D9C1-922F-9FE54E4BACBA</generatorID>
+<ownerDesignName>baza</ownerDesignName>
+<referredTableLongName>Rower</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>CAA8D83F-5E0C-AA86-5174-18231B304FB5</referredTableID>
+<keyObject>F55A0AFD-23C9-3D1A-C939-4C7119E08EC9</keyObject>
+<referredKeyID>F55A0AFD-23C9-3D1A-C939-4C7119E08EC9</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>rower_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

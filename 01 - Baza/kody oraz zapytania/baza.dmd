@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="baza" id="4B4611C9-852D-5906-84E3-58F6499688D7" version="3.5">
+<createdBy>Admin</createdBy>
+<createdTime>2023-06-12 10:15:58 UTC</createdTime>
+<ownerDesignName>wypozyczalnia</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>4B4611C9-852D-5906-84E3-58F6499688D7</designId>
+<usedDesignStorageDescriptors>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="3C866AAE-F036-744E-E15A-041A7C06BBC2">
+<designStoragePath>F:\Jakub\studia\Projekty\Bazy Danych 2\Rowery\wypozyczalnia</designStoragePath>
+</designDescr>
+</usedDesignStorageDescriptors>
+</OSDM_Design>

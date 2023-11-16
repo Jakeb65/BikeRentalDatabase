@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="09D4315E-7793-3466-42B7-C05296FAEB21" name="Marka">
+<createdBy>Admin</createdBy>
+<createdTime>2023-06-12 10:17:18 UTC</createdTime>
+<ownerDesignName>baza</ownerDesignName>
+<importedID>A735C3CB-5267-72FA-BCC0-5ADE0A41603D</importedID>
+<engineerTo>
+<item key="782C4CCF-841D-CB83-7070-1D09058BF6D6" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="marka_id" id="EC7E67E8-3341-72D1-9560-7346CDE35FB4">
+<createdBy>Admin</createdBy>
+<createdTime>2023-06-12 10:17:18 UTC</createdTime>
+<ownerDesignName>baza</ownerDesignName>
+<importedID>E47813EB-CAC2-7A2E-EC4D-04EA89FBF534</importedID>
+<engineerTo>
+<item key="782C4CCF-841D-CB83-7070-1D09058BF6D6" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>1BF11A5C-4785-70CA-F27D-9162F2DBE85B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="marka" id="A52D719E-B033-CDAC-7510-EDB64C30CA5E">
+<createdBy>Admin</createdBy>
+<createdTime>2023-06-12 10:17:18 UTC</createdTime>
+<ownerDesignName>baza</ownerDesignName>
+<importedID>360F3DDE-1117-1B3E-67D6-C80EDE8A0165</importedID>
+<engineerTo>
+<item key="782C4CCF-841D-CB83-7070-1D09058BF6D6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>2C646479-B2F2-0424-AE39-1F48C491365C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="model_id" id="F99D22B1-9E95-ED72-9C5B-C36D72CF1CC3">
+<createdBy>Admin</createdBy>
+<createdTime>2023-06-12 10:17:18 UTC</createdTime>
+<generatorID>A6FDA07F-C3CB-56AC-8F13-1AED9A5A8705</generatorID>
+<ownerDesignName>baza</ownerDesignName>
+<importedID>07FC87AD-B51F-EC11-CA06-0AD0FF165F24</importedID>
+<engineerTo>
+<item key="782C4CCF-841D-CB83-7070-1D09058BF6D6" value="true"/>
+</engineerTo>
+<referedAttribute>204BA886-2F00-C963-25A2-99FAD11153C8</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>1BF11A5C-4785-70CA-F27D-9162F2DBE85B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="6C159155-69B7-CA88-22CC-8AA80EA7A959" name="Marka PK">
+<createdBy>Admin</createdBy>
+<createdTime>2023-06-12 10:17:18 UTC</createdTime>
+<ownerDesignName>baza</ownerDesignName>
+<importedID>3B239FC6-5374-5644-6C1E-2CF7C48930E5</importedID>
+<engineerTo>
+<item key="782C4CCF-841D-CB83-7070-1D09058BF6D6" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>EC7E67E8-3341-72D1-9560-7346CDE35FB4</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

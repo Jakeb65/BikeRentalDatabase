@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="AEEAAAC9-B245-0843-AC3C-1DBA3E077715" name="Wojewodztwo">
+<createdBy>Admin</createdBy>
+<createdTime>2023-06-12 10:17:17 UTC</createdTime>
+<ownerDesignName>baza</ownerDesignName>
+<importedID>587CA89A-DEB5-6179-43F2-241B1AF4A35F</importedID>
+<engineerTo>
+<item key="286058A6-0B00-F7EA-B7BD-9D8050506164" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="woj_id" id="A7699924-6FD9-EDEB-02D1-C9A8EEDCA836">
+<createdBy>Admin</createdBy>
+<createdTime>2023-06-12 10:17:18 UTC</createdTime>
+<ownerDesignName>baza</ownerDesignName>
+<importedID>88766933-6605-A814-739A-214B6930D7BE</importedID>
+<engineerTo>
+<item key="286058A6-0B00-F7EA-B7BD-9D8050506164" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>1BF11A5C-4785-70CA-F27D-9162F2DBE85B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="wojewodztwo" id="999519BF-3A88-150E-E629-9D339B517C1C">
+<createdBy>Admin</createdBy>
+<createdTime>2023-06-12 10:17:18 UTC</createdTime>
+<ownerDesignName>baza</ownerDesignName>
+<importedID>A4ABF2CA-9390-94E8-5853-6E2330DE1298</importedID>
+<engineerTo>
+<item key="286058A6-0B00-F7EA-B7BD-9D8050506164" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>2C646479-B2F2-0424-AE39-1F48C491365C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="79DF89F1-50BC-5445-75FA-3281DFD85D98" name="Województwo PK">
+<createdBy>Admin</createdBy>
+<createdTime>2023-06-12 10:17:18 UTC</createdTime>
+<ownerDesignName>baza</ownerDesignName>
+<importedID>F5D84026-5CF2-2B4D-16BE-CB5DAE115E2C</importedID>
+<engineerTo>
+<item key="286058A6-0B00-F7EA-B7BD-9D8050506164" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A7699924-6FD9-EDEB-02D1-C9A8EEDCA836</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

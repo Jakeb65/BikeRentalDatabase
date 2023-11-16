@@ -1,0 +1,144 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="95D7C0B4-DF2A-CB14-F4A9-5A8A5B9BBD7C" name="Wypozyczenia">
+<createdBy>Admin</createdBy>
+<createdTime>2023-06-12 10:17:18 UTC</createdTime>
+<ownerDesignName>baza</ownerDesignName>
+<importedID>C1C292C6-C9BF-DE69-2839-7FB68E6CD969</importedID>
+<engineerTo>
+<item key="20C578B7-D53A-0801-B7FE-C06F382159C8" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="wypozyczenia_id" id="3067790F-AEA9-3FA4-20D2-915DC340EB64">
+<createdBy>Admin</createdBy>
+<createdTime>2023-06-12 10:17:18 UTC</createdTime>
+<ownerDesignName>baza</ownerDesignName>
+<importedID>758308BB-82BD-94A9-18A8-6BC634371786</importedID>
+<engineerTo>
+<item key="20C578B7-D53A-0801-B7FE-C06F382159C8" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>1BF11A5C-4785-70CA-F27D-9162F2DBE85B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="data_wypozyczenia" id="77BDB530-30AC-F8BB-DE50-5B213AB206C7">
+<createdBy>Admin</createdBy>
+<createdTime>2023-06-16 13:10:58 UTC</createdTime>
+<ownerDesignName>baza</ownerDesignName>
+<engineerTo>
+<item key="20C578B7-D53A-0801-B7FE-C06F382159C8" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<domain>FF8DD6CA-1261-4C3E-2F78-C25BD7793EA7</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="data_zwrotu" id="0A9CDDE9-AAEA-E271-943D-2BD1876D87AC">
+<createdBy>Admin</createdBy>
+<createdTime>2023-06-16 13:11:06 UTC</createdTime>
+<ownerDesignName>baza</ownerDesignName>
+<engineerTo>
+<item key="20C578B7-D53A-0801-B7FE-C06F382159C8" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<domain>FF8DD6CA-1261-4C3E-2F78-C25BD7793EA7</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="koszt_wypozyczenia" id="7427C73A-E24A-51CB-C038-55CD3AE0C80D">
+<createdBy>Admin</createdBy>
+<createdTime>2023-06-16 13:11:12 UTC</createdTime>
+<ownerDesignName>baza</ownerDesignName>
+<engineerTo>
+<item key="20C578B7-D53A-0801-B7FE-C06F382159C8" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT043</logicalDatatype>
+<domain>77E342FA-9EC3-DFA3-2D75-5032563A9D15</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="rower_id" id="7ADA4A4B-86DE-EA67-2545-C69C22A0454E">
+<createdBy>Admin</createdBy>
+<createdTime>2023-06-17 13:12:12 UTC</createdTime>
+<generatorID>7BFC5122-209F-D9C1-922F-9FE54E4BACBA</generatorID>
+<ownerDesignName>baza</ownerDesignName>
+<engineerTo>
+<item key="20C578B7-D53A-0801-B7FE-C06F382159C8" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>E888E52A-6356-302D-9B40-23723E719CFA</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>1BF11A5C-4785-70CA-F27D-9162F2DBE85B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="wypozyczalnia_id" id="CF7E29A2-52AC-DDB7-CFC0-8C8B296348C0">
+<createdBy>Admin</createdBy>
+<createdTime>2023-06-17 13:18:32 UTC</createdTime>
+<generatorID>A6B817CA-478A-8306-1531-5A30DC61A25D</generatorID>
+<ownerDesignName>baza</ownerDesignName>
+<engineerTo>
+<item key="20C578B7-D53A-0801-B7FE-C06F382159C8" value="true"/>
+</engineerTo>
+<referedAttribute>269042EA-B7E1-82F9-6212-A2A20E5691D9</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>1BF11A5C-4785-70CA-F27D-9162F2DBE85B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="pracownik_id" id="318EF030-4401-5455-F3F0-96856E4FF3B5">
+<createdBy>Admin</createdBy>
+<createdTime>2023-06-25 12:39:12 UTC</createdTime>
+<generatorID>14A8F7BD-940E-FAF8-70C9-1C59DFDD7719</generatorID>
+<ownerDesignName>baza</ownerDesignName>
+<engineerTo>
+<item key="20C578B7-D53A-0801-B7FE-C06F382159C8" value="true"/>
+</engineerTo>
+<referedAttribute>C8761542-BAF3-7A14-E3A4-A02BA4AFBE06</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>1BF11A5C-4785-70CA-F27D-9162F2DBE85B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="klient_id" id="6923F6EC-2AF8-7737-6388-D8223DDE7788">
+<createdBy>Admin</createdBy>
+<createdTime>2023-06-25 12:39:19 UTC</createdTime>
+<generatorID>0CB0DEE4-B212-FBD3-180C-98D30FF1C0E0</generatorID>
+<ownerDesignName>baza</ownerDesignName>
+<engineerTo>
+<item key="20C578B7-D53A-0801-B7FE-C06F382159C8" value="true"/>
+</engineerTo>
+<referedAttribute>007D63B7-84DA-BAF8-C99F-E58746B45194</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>1BF11A5C-4785-70CA-F27D-9162F2DBE85B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="780169D7-45AA-B9AF-B14B-C0379424A7BE" name="Wypożyczalnia PK">
+<createdBy>Admin</createdBy>
+<createdTime>2023-06-12 10:17:18 UTC</createdTime>
+<ownerDesignName>baza</ownerDesignName>
+<importedID>76B4F7A9-FC2E-3250-1D11-367C0057D7A4</importedID>
+<engineerTo>
+<item key="20C578B7-D53A-0801-B7FE-C06F382159C8" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>3067790F-AEA9-3FA4-20D2-915DC340EB64</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

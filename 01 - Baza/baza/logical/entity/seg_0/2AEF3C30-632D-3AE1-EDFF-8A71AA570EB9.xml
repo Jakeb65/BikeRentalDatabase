@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2AEF3C30-632D-3AE1-EDFF-8A71AA570EB9" name="Ulica">
+<createdBy>Admin</createdBy>
+<createdTime>2023-06-12 10:17:18 UTC</createdTime>
+<ownerDesignName>baza</ownerDesignName>
+<importedID>EB13FF52-EED2-5084-FE51-D568C061B3B4</importedID>
+<engineerTo>
+<item key="5A4A1817-D319-3BFA-83BB-615B42E3DA6A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ulica_id" id="78DBE060-3EE8-4CA3-1447-67A57E9E6F9F">
+<createdBy>Admin</createdBy>
+<createdTime>2023-06-12 10:17:18 UTC</createdTime>
+<ownerDesignName>baza</ownerDesignName>
+<importedID>F66C1A9C-802A-8F66-C244-720BE8601851</importedID>
+<engineerTo>
+<item key="5A4A1817-D319-3BFA-83BB-615B42E3DA6A" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>1BF11A5C-4785-70CA-F27D-9162F2DBE85B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ulica" id="265A2E13-BE39-2FB7-2CB8-415D73437B21">
+<createdBy>Admin</createdBy>
+<createdTime>2023-06-12 10:17:18 UTC</createdTime>
+<ownerDesignName>baza</ownerDesignName>
+<importedID>7A58758E-F04E-F0C2-CCF0-D2053D846E56</importedID>
+<engineerTo>
+<item key="5A4A1817-D319-3BFA-83BB-615B42E3DA6A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>35</dataTypeSize>
+<ownDataTypeParameters>35,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="miasto_id" id="E8ABA5DB-7FE1-A0FA-8152-111C0907F1D4">
+<createdBy>Admin</createdBy>
+<createdTime>2023-06-12 10:17:18 UTC</createdTime>
+<generatorID>9422BCE2-7932-A58A-EF92-23DB50762D39</generatorID>
+<ownerDesignName>baza</ownerDesignName>
+<importedID>E6508B14-E965-963D-448F-6CC543C43872</importedID>
+<engineerTo>
+<item key="5A4A1817-D319-3BFA-83BB-615B42E3DA6A" value="true"/>
+</engineerTo>
+<referedAttribute>6C833394-2CC1-88EB-4F64-962F8B387F48</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>1BF11A5C-4785-70CA-F27D-9162F2DBE85B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="6A525ABC-0DE9-6EBF-9B75-A3F8632888BD" name="Ulica PK">
+<createdBy>Admin</createdBy>
+<createdTime>2023-06-12 10:17:18 UTC</createdTime>
+<ownerDesignName>baza</ownerDesignName>
+<importedID>454D0EB8-41AD-3CF9-7417-7C29D94AA124</importedID>
+<engineerTo>
+<item key="5A4A1817-D319-3BFA-83BB-615B42E3DA6A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>78DBE060-3EE8-4CA3-1447-67A57E9E6F9F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

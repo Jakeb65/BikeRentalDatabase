@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="8CE1BF19-6B6B-9CE2-389C-853E602108CD" containerWithKeyObject="017C7C38-2D7B-17A3-7856-10697D326772" localFKIndex="EC1898A6-A06B-CF7D-3988-8A2CD8D75881" name="h_Wypozyczenia_h_Typ_FK">
+<createdBy>Admin</createdBy>
+<createdTime>2023-06-25 23:02:56 UTC</createdTime>
+<generatorID>28097365-6C32-55C6-AC26-8F3EA9FB095D</generatorID>
+<ownerDesignName>hurtownia</ownerDesignName>
+<referredTableLongName>h_Typ</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>769D2A07-47EA-D1D4-4A85-03A85B22BDE6</referredTableID>
+<keyObject>E2BF39BD-4C2D-A46A-8CB2-FB480D4D4CC8</keyObject>
+<referredKeyID>E2BF39BD-4C2D-A46A-8CB2-FB480D4D4CC8</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>typ_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

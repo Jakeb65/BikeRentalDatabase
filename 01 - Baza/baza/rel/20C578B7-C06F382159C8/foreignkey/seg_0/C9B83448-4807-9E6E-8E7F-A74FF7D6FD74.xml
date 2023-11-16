@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="C9B83448-4807-9E6E-8E7F-A74FF7D6FD74" containerWithKeyObject="3D03A73C-FA30-0DD8-A9FB-09CC40A49035" localFKIndex="577A5421-A82C-DD7C-B1DB-3E1A7095E1A2" name="Klient_Ulica_FK">
+<createdBy>Admin</createdBy>
+<createdTime>2023-06-25 12:39:37 UTC</createdTime>
+<generatorID>FE8DD61B-58C4-985D-A7E4-00133FFD9749</generatorID>
+<ownerDesignName>baza</ownerDesignName>
+<referredTableLongName>Ulica</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>29247439-CC85-7914-ADC8-CC1A723E2F61</referredTableID>
+<keyObject>92DBD1C0-EBA7-2ADB-F446-010A635F4C1A</keyObject>
+<referredKeyID>92DBD1C0-EBA7-2ADB-F446-010A635F4C1A</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ulica_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

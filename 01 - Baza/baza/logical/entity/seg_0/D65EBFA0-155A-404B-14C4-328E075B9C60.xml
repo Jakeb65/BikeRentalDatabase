@@ -1,0 +1,119 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D65EBFA0-155A-404B-14C4-328E075B9C60" name="Rower">
+<createdBy>Admin</createdBy>
+<createdTime>2023-06-12 10:17:17 UTC</createdTime>
+<ownerDesignName>baza</ownerDesignName>
+<importedID>61BCF526-B5BA-76E6-1ADF-645ECBD773B8</importedID>
+<engineerTo>
+<item key="20C578B7-D53A-0801-B7FE-C06F382159C8" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="rower_id" id="E888E52A-6356-302D-9B40-23723E719CFA">
+<createdBy>Admin</createdBy>
+<createdTime>2023-06-12 10:17:18 UTC</createdTime>
+<ownerDesignName>baza</ownerDesignName>
+<importedID>A228A66B-C4B3-03AE-2A1F-AB5FF416DEC4</importedID>
+<engineerTo>
+<item key="20C578B7-D53A-0801-B7FE-C06F382159C8" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>1BF11A5C-4785-70CA-F27D-9162F2DBE85B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="rok_produkcji" id="C333E14C-802D-02A4-6781-BAF8EB781C7F">
+<createdBy>Admin</createdBy>
+<createdTime>2023-06-16 13:03:58 UTC</createdTime>
+<ownerDesignName>baza</ownerDesignName>
+<engineerTo>
+<item key="20C578B7-D53A-0801-B7FE-C06F382159C8" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>0732437A-E8E4-D2E3-1F9D-9564E3EA03C5</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_seryjny" id="7FE7A42C-FD35-2002-F1FD-A6EB65BD944F">
+<createdBy>Admin</createdBy>
+<createdTime>2023-06-16 13:04:22 UTC</createdTime>
+<ownerDesignName>baza</ownerDesignName>
+<engineerTo>
+<item key="20C578B7-D53A-0801-B7FE-C06F382159C8" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>0732437A-E8E4-D2E3-1F9D-9564E3EA03C5</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="typ_id" id="78328E0B-697E-87B8-3F9A-FE3B5654AC98">
+<createdBy>Admin</createdBy>
+<createdTime>2023-06-12 10:17:18 UTC</createdTime>
+<generatorID>CB32F217-E800-36F0-D3E5-2B882687F24B</generatorID>
+<ownerDesignName>baza</ownerDesignName>
+<importedID>ED3321E0-9818-D0A0-CD2C-A31091EF4E7B</importedID>
+<engineerTo>
+<item key="20C578B7-D53A-0801-B7FE-C06F382159C8" value="true"/>
+</engineerTo>
+<referedAttribute>B855A66B-5AFF-48F0-EEEB-193E0CADF86D</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>1BF11A5C-4785-70CA-F27D-9162F2DBE85B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="kolor_id" id="0D215C55-300F-C270-CBF0-1266678C4CF8">
+<createdBy>Admin</createdBy>
+<createdTime>2023-06-12 10:17:18 UTC</createdTime>
+<generatorID>95AC7F90-F809-6B40-A6F4-F4CCA1EC1463</generatorID>
+<ownerDesignName>baza</ownerDesignName>
+<importedID>138A4A29-9264-2696-FAF5-BAB7529CB398</importedID>
+<engineerTo>
+<item key="20C578B7-D53A-0801-B7FE-C06F382159C8" value="true"/>
+</engineerTo>
+<referedAttribute>90691A39-B6E4-9088-94C1-1BFDFDEB48CD</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>1BF11A5C-4785-70CA-F27D-9162F2DBE85B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="rozmiar_ramy_id" id="A01C9D82-09E8-5C6F-FF52-5D36110D26E0">
+<createdBy>Admin</createdBy>
+<createdTime>2023-06-12 10:17:18 UTC</createdTime>
+<generatorID>28B0B7C8-56B1-0A9C-3683-B0709111412C</generatorID>
+<ownerDesignName>baza</ownerDesignName>
+<importedID>66A5C79D-D9D0-C607-CB41-F50E458670A1</importedID>
+<engineerTo>
+<item key="20C578B7-D53A-0801-B7FE-C06F382159C8" value="true"/>
+</engineerTo>
+<referedAttribute>B941CC70-E881-9A8D-21EB-DFD3C3C2917B</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>1BF11A5C-4785-70CA-F27D-9162F2DBE85B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="68A691AB-7E20-ADA3-6925-96D6710CEC7B" name="Rower PK">
+<createdBy>Admin</createdBy>
+<createdTime>2023-06-12 10:17:18 UTC</createdTime>
+<ownerDesignName>baza</ownerDesignName>
+<importedID>CEABB417-2B77-B10E-D3D1-8810EBDA6D71</importedID>
+<engineerTo>
+<item key="20C578B7-D53A-0801-B7FE-C06F382159C8" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E888E52A-6356-302D-9B40-23723E719CFA</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

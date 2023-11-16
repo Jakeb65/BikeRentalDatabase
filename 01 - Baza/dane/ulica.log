@@ -1,0 +1,53 @@
+
+SQL*Loader: Release 19.0.0.0.0 - Production on Sun Jun 25 23:24:57 2023
+Version 19.3.0.0.0
+
+Copyright (c) 1982, 2019, Oracle and/or its affiliates.  All rights reserved.
+
+Control File:   F:\projektbazy\ulica.ctl
+Data File:      F:\projektbazy\ulica.csv
+  Bad File:     F:\projektbazy\ulica.bad
+  Discard File:  none specified
+ 
+ (Allow all discards)
+
+Number to load: ALL
+Number to skip: 0
+Errors allowed: 50
+Bind array:     250 rows, maximum of 1048576 bytes
+Continuation:    none specified
+Path used:      Conventional
+
+Table ULICA, loaded from every logical record.
+Insert option in effect for this table: APPEND
+
+   Column Name                  Position   Len  Term Encl Datatype
+------------------------------ ---------- ----- ---- ---- ---------------------
+ULICA_ID                            FIRST     *   ;       CHARACTER            
+ULICA                                NEXT     *   ;       CHARACTER            
+MIASTO_MIASTO_ID                     NEXT     *   ;       CHARACTER            
+
+Record 1: Rejected - Error on table ULICA, column ULICA_ID.
+ORA-01722: invalid number
+
+
+Table ULICA:
+  2148 Rows successfully loaded.
+  1 Row not loaded due to data errors.
+  0 Rows not loaded because all WHEN clauses were failed.
+  0 Rows not loaded because all fields were null.
+
+
+Space allocated for bind array:                 193500 bytes(250 rows)
+Read   buffer bytes: 1048576
+
+Total logical records skipped:          0
+Total logical records read:          2149
+Total logical records rejected:         1
+Total logical records discarded:        0
+
+Run began on Sun Jun 25 23:24:57 2023
+Run ended on Sun Jun 25 23:24:58 2023
+
+Elapsed time was:     00:00:00.28
+CPU time was:         00:00:00.18

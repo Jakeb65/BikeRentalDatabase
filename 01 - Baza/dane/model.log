@@ -1,0 +1,52 @@
+
+SQL*Loader: Release 19.0.0.0.0 - Production on Sun Jun 25 23:24:47 2023
+Version 19.3.0.0.0
+
+Copyright (c) 1982, 2019, Oracle and/or its affiliates.  All rights reserved.
+
+Control File:   F:\projektbazy\model.ctl
+Data File:      F:\projektbazy\model.csv
+  Bad File:     F:\projektbazy\model.bad
+  Discard File:  none specified
+ 
+ (Allow all discards)
+
+Number to load: ALL
+Number to skip: 0
+Errors allowed: 50
+Bind array:     250 rows, maximum of 1048576 bytes
+Continuation:    none specified
+Path used:      Conventional
+
+Table MODEL, loaded from every logical record.
+Insert option in effect for this table: APPEND
+
+   Column Name                  Position   Len  Term Encl Datatype
+------------------------------ ---------- ----- ---- ---- ---------------------
+MODEL_ID                            FIRST     *   ;       CHARACTER            
+MODEL                                NEXT     *   ;       CHARACTER            
+
+Record 1: Rejected - Error on table MODEL, column MODEL_ID.
+ORA-01722: invalid number
+
+
+Table MODEL:
+  7 Rows successfully loaded.
+  1 Row not loaded due to data errors.
+  0 Rows not loaded because all WHEN clauses were failed.
+  0 Rows not loaded because all fields were null.
+
+
+Space allocated for bind array:                 129000 bytes(250 rows)
+Read   buffer bytes: 1048576
+
+Total logical records skipped:          0
+Total logical records read:             8
+Total logical records rejected:         1
+Total logical records discarded:        0
+
+Run began on Sun Jun 25 23:24:47 2023
+Run ended on Sun Jun 25 23:24:47 2023
+
+Elapsed time was:     00:00:00.25
+CPU time was:         00:00:00.17

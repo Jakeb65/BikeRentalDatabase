@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="72613B8E-376B-8A93-DAFB-B8CF66F988C6" containerWithKeyObject="CA303099-8D0A-47D1-38DE-F86D0D3C8678" localFKIndex="D3661AC3-87C5-619E-F032-275972AEB2A8" name="Pracownik_Wypozyczalnia_FK">
+<createdBy>Admin</createdBy>
+<createdTime>2023-06-17 11:02:15 UTC</createdTime>
+<generatorID>35F531F7-B327-E4C6-5713-98C73E9399DD</generatorID>
+<ownerDesignName>baza</ownerDesignName>
+<referredTableLongName>Wypozyczalnia</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>90DF5344-D46E-B8CC-A7AE-9307A4F6626D</referredTableID>
+<keyObject>C6BAE126-E6BD-C8CE-BACD-7D0DA430F8AE</keyObject>
+<referredKeyID>C6BAE126-E6BD-C8CE-BACD-7D0DA430F8AE</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>wypozyczalnia_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

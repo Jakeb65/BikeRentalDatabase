@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CECA93A9-6682-7A62-C07F-8E2BD30E5A9E" name="Rozmiar_ramy">
+<createdBy>Admin</createdBy>
+<createdTime>2023-06-17 11:02:15 UTC</createdTime>
+<generatorID>9763ECEA-6F9B-A8BA-7A56-CB95B3BDBD86</generatorID>
+<ownerDesignName>baza</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="rozmiar_ramy_id" id="965CA8FF-46B0-332A-5FB4-CB5842088715">
+<createdBy>Admin</createdBy>
+<createdTime>2023-06-17 11:02:15 UTC</createdTime>
+<generatorID>B941CC70-E881-9A8D-21EB-DFD3C3C2917B</generatorID>
+<ownerDesignName>baza</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>1BF11A5C-4785-70CA-F27D-9162F2DBE85B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="rozmiar_ramy" id="CCF2C555-8725-E01E-886B-E2E4A34717D9">
+<createdBy>Admin</createdBy>
+<createdTime>2023-06-17 11:02:15 UTC</createdTime>
+<generatorID>33DA8D77-2DE5-7614-B7C3-93739981B275</generatorID>
+<ownerDesignName>baza</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>2C646479-B2F2-0424-AE39-1F48C491365C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Rozmiar_kol_rozmiar_kol_id" id="79EAE698-A9F9-283B-7BBD-28FCED1F29A8">
+<createdBy>Admin</createdBy>
+<createdTime>2023-06-17 11:02:15 UTC</createdTime>
+<generatorID>EDAF82A8-28DB-0FD6-DBFF-B0640925CBA0</generatorID>
+<ownerDesignName>baza</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>1BF11A5C-4785-70CA-F27D-9162F2DBE85B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="30E6F89D-FF7D-A30C-641B-81768E499ABF" referredColumn="162869AA-6B71-7FC8-3548-041BC00216E9"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E0A6C79D-AB6D-75D4-D757-8C5B0A4BBCE4" name="Rozmiar_ramy_PK">
+<createdBy>Admin</createdBy>
+<createdTime>2023-06-17 11:02:15 UTC</createdTime>
+<generatorID>90B4AE0D-CC65-BA84-8BA3-B824B5C43D9D</generatorID>
+<ownerDesignName>baza</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="965CA8FF-46B0-332A-5FB4-CB5842088715"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9F62F43C-9063-3A90-5593-47896C66EBA1" name="Rozmiar_ramy_Rozmiar_kol_FK">
+<createdBy>Admin</createdBy>
+<createdTime>2023-06-17 11:02:15 UTC</createdTime>
+<generatorID>C0D8672D-B3B5-63FA-E4BB-F450CA66D110</generatorID>
+<ownerDesignName>baza</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="79EAE698-A9F9-283B-7BBD-28FCED1F29A8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

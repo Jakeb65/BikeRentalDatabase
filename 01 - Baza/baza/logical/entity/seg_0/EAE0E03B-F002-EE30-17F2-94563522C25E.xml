@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="EAE0E03B-F002-EE30-17F2-94563522C25E" name="Miasto">
+<createdBy>Admin</createdBy>
+<createdTime>2023-06-12 10:17:18 UTC</createdTime>
+<ownerDesignName>baza</ownerDesignName>
+<importedID>D1B9CF88-FEE5-7226-AF7B-F3083233C8B6</importedID>
+<engineerTo>
+<item key="5D719381-1B0F-BC48-A4D6-2D563BA3ACBD" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="miasto_id" id="6C833394-2CC1-88EB-4F64-962F8B387F48">
+<createdBy>Admin</createdBy>
+<createdTime>2023-06-12 10:17:18 UTC</createdTime>
+<ownerDesignName>baza</ownerDesignName>
+<importedID>D58779DE-CFE9-54F7-D3B3-653AA113AB64</importedID>
+<engineerTo>
+<item key="5D719381-1B0F-BC48-A4D6-2D563BA3ACBD" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>1BF11A5C-4785-70CA-F27D-9162F2DBE85B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="miasto" id="1E178831-074E-D6AC-76B2-90E095598BD4">
+<createdBy>Admin</createdBy>
+<createdTime>2023-06-12 10:17:18 UTC</createdTime>
+<ownerDesignName>baza</ownerDesignName>
+<importedID>F8AC7FBA-726F-617E-D38A-78B691CDFCD7</importedID>
+<engineerTo>
+<item key="5D719381-1B0F-BC48-A4D6-2D563BA3ACBD" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="woj_id" id="374E01B6-2F46-8840-FF9C-1F0D5EA6ADC0">
+<createdBy>Admin</createdBy>
+<createdTime>2023-06-12 10:17:18 UTC</createdTime>
+<generatorID>D0087DD9-114B-7802-5559-CF9C962AD40F</generatorID>
+<ownerDesignName>baza</ownerDesignName>
+<importedID>1D359DD7-CCDE-CD39-F669-DDA029E491FC</importedID>
+<engineerTo>
+<item key="5D719381-1B0F-BC48-A4D6-2D563BA3ACBD" value="true"/>
+</engineerTo>
+<referedAttribute>A7699924-6FD9-EDEB-02D1-C9A8EEDCA836</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>1BF11A5C-4785-70CA-F27D-9162F2DBE85B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="904FF175-64E5-1B2F-B2B9-A482E34F49E0" name="Miasto PK">
+<createdBy>Admin</createdBy>
+<createdTime>2023-06-12 10:17:18 UTC</createdTime>
+<ownerDesignName>baza</ownerDesignName>
+<importedID>72471D35-26DC-FC48-D6EC-B56F1DC9FAB1</importedID>
+<engineerTo>
+<item key="5D719381-1B0F-BC48-A4D6-2D563BA3ACBD" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>6C833394-2CC1-88EB-4F64-962F8B387F48</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="18915771-D490-E954-4153-C5EA0FB661EA" name="h_Rower">
+<createdBy>Admin</createdBy>
+<createdTime>2023-06-19 10:46:26 UTC</createdTime>
+<ownerDesignName>hurtownia</ownerDesignName>
+<engineerTo>
+<item key="4033550B-FAE2-B945-E5FC-9805BF30F8B6" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="rower_id" id="D3BB7F8E-A7EE-5D2B-71C7-591111811BEE">
+<createdBy>Admin</createdBy>
+<createdTime>2023-06-19 10:46:43 UTC</createdTime>
+<ownerDesignName>hurtownia</ownerDesignName>
+<engineerTo>
+<item key="4033550B-FAE2-B945-E5FC-9805BF30F8B6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_seryjny" id="E120B133-5546-AD4C-87A3-639F67BB5CF6">
+<createdBy>Admin</createdBy>
+<createdTime>2023-06-19 20:38:19 UTC</createdTime>
+<ownerDesignName>hurtownia</ownerDesignName>
+<engineerTo>
+<item key="4033550B-FAE2-B945-E5FC-9805BF30F8B6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+<ownDataTypeParameters>4,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="rok_produkcji" id="66E710D9-B31A-7BB6-E739-2AFFE0D8E3D9">
+<createdBy>Admin</createdBy>
+<createdTime>2023-06-26 18:08:11 UTC</createdTime>
+<ownerDesignName>hurtownia</ownerDesignName>
+<engineerTo>
+<item key="4033550B-FAE2-B945-E5FC-9805BF30F8B6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+<ownDataTypeParameters>4,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A4798DF8-F6CF-EC6C-3F17-5E941D10F4F3" name="Rower PK">
+<createdBy>Admin</createdBy>
+<createdTime>2023-06-19 10:46:47 UTC</createdTime>
+<ownerDesignName>hurtownia</ownerDesignName>
+<engineerTo>
+<item key="4033550B-FAE2-B945-E5FC-9805BF30F8B6" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D3BB7F8E-A7EE-5D2B-71C7-591111811BEE</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,117 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BB0C52CA-11C4-A16B-EE2B-2A0C24343846" name="Pracownik">
+<createdBy>Admin</createdBy>
+<createdTime>2023-06-12 10:17:17 UTC</createdTime>
+<ownerDesignName>baza</ownerDesignName>
+<importedID>5729613D-A912-9358-6919-B4A0B82CA571</importedID>
+<engineerTo>
+<item key="20C578B7-D53A-0801-B7FE-C06F382159C8" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="pracownik_id" id="C8761542-BAF3-7A14-E3A4-A02BA4AFBE06">
+<createdBy>Admin</createdBy>
+<createdTime>2023-06-12 10:17:18 UTC</createdTime>
+<ownerDesignName>baza</ownerDesignName>
+<importedID>7D75A7D1-10E3-112B-FD33-B98692F4744E</importedID>
+<engineerTo>
+<item key="20C578B7-D53A-0801-B7FE-C06F382159C8" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>1BF11A5C-4785-70CA-F27D-9162F2DBE85B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="imie" id="AF718C10-4BED-2792-F0F5-480A31ED3731">
+<createdBy>Admin</createdBy>
+<createdTime>2023-06-16 13:08:13 UTC</createdTime>
+<ownerDesignName>baza</ownerDesignName>
+<engineerTo>
+<item key="20C578B7-D53A-0801-B7FE-C06F382159C8" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>2C646479-B2F2-0424-AE39-1F48C491365C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nazwisko" id="22FBE1BE-2BE3-377C-E1C4-CFA3B8779811">
+<createdBy>Admin</createdBy>
+<createdTime>2023-06-16 13:08:23 UTC</createdTime>
+<ownerDesignName>baza</ownerDesignName>
+<engineerTo>
+<item key="20C578B7-D53A-0801-B7FE-C06F382159C8" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>2C646479-B2F2-0424-AE39-1F48C491365C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="data_zatrudnienia" id="18A94BCE-367B-48C3-C25B-CA9FB1F79AA5">
+<createdBy>Admin</createdBy>
+<createdTime>2023-06-16 13:08:29 UTC</createdTime>
+<ownerDesignName>baza</ownerDesignName>
+<engineerTo>
+<item key="20C578B7-D53A-0801-B7FE-C06F382159C8" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<domain>FF8DD6CA-1261-4C3E-2F78-C25BD7793EA7</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ulica_id" id="6B210945-33DF-32FC-344C-DCE5F9B356D7">
+<createdBy>Admin</createdBy>
+<createdTime>2023-06-12 10:17:18 UTC</createdTime>
+<generatorID>8688120F-ED1F-7299-B0E1-800F364F93BA</generatorID>
+<ownerDesignName>baza</ownerDesignName>
+<importedID>F9361448-1E3C-D754-2F7C-87CF372FB358</importedID>
+<engineerTo>
+<item key="20C578B7-D53A-0801-B7FE-C06F382159C8" value="true"/>
+</engineerTo>
+<referedAttribute>78DBE060-3EE8-4CA3-1447-67A57E9E6F9F</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>1BF11A5C-4785-70CA-F27D-9162F2DBE85B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="funkcja_id" id="0E14FC31-AF7F-3E18-1038-96B6AEF0FC2A">
+<createdBy>Admin</createdBy>
+<createdTime>2023-06-12 10:17:18 UTC</createdTime>
+<generatorID>199BA38D-1D92-3FAC-7075-F2DB991F38FF</generatorID>
+<ownerDesignName>baza</ownerDesignName>
+<importedID>A66D692F-4DED-ADBB-61E6-950696D5D2C0</importedID>
+<engineerTo>
+<item key="20C578B7-D53A-0801-B7FE-C06F382159C8" value="true"/>
+</engineerTo>
+<referedAttribute>8BF676F3-0C24-42C8-F9F0-BFFD957FD673</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>1BF11A5C-4785-70CA-F27D-9162F2DBE85B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="688B9FC9-B425-F95E-CBAB-D5AE43E791EE" name="Pracownik PK">
+<createdBy>Admin</createdBy>
+<createdTime>2023-06-12 10:17:18 UTC</createdTime>
+<ownerDesignName>baza</ownerDesignName>
+<importedID>09857EC7-DAE3-2745-0944-4A4581C7EB19</importedID>
+<engineerTo>
+<item key="20C578B7-D53A-0801-B7FE-C06F382159C8" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C8761542-BAF3-7A14-E3A4-A02BA4AFBE06</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

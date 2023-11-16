@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="CB613E57-7D49-5916-0DF8-C711C7616FA9" name="Wypozyczalnia">
+<createdBy>Admin</createdBy>
+<createdTime>2023-06-17 13:17:28 UTC</createdTime>
+<ownerDesignName>baza</ownerDesignName>
+<engineerTo>
+<item key="5A4A1817-D319-3BFA-83BB-615B42E3DA6A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="wypozyczalnia_id" id="269042EA-B7E1-82F9-6212-A2A20E5691D9">
+<createdBy>Admin</createdBy>
+<createdTime>2023-06-17 13:17:33 UTC</createdTime>
+<ownerDesignName>baza</ownerDesignName>
+<engineerTo>
+<item key="5A4A1817-D319-3BFA-83BB-615B42E3DA6A" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>1BF11A5C-4785-70CA-F27D-9162F2DBE85B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nazwa_wyp" id="FF357994-B669-C25C-017F-6CB62C605020">
+<createdBy>Admin</createdBy>
+<createdTime>2023-06-17 13:17:42 UTC</createdTime>
+<ownerDesignName>baza</ownerDesignName>
+<engineerTo>
+<item key="5A4A1817-D319-3BFA-83BB-615B42E3DA6A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>2C646479-B2F2-0424-AE39-1F48C491365C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ulica_id" id="2D2193D1-8B75-BAD5-DFE0-B91B9BB4E096">
+<createdBy>Admin</createdBy>
+<createdTime>2023-06-17 13:18:02 UTC</createdTime>
+<generatorID>50EAB44C-EA6D-CDFA-0DA3-01E4712E26DA</generatorID>
+<ownerDesignName>baza</ownerDesignName>
+<engineerTo>
+<item key="5A4A1817-D319-3BFA-83BB-615B42E3DA6A" value="true"/>
+</engineerTo>
+<referedAttribute>78DBE060-3EE8-4CA3-1447-67A57E9E6F9F</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>1BF11A5C-4785-70CA-F27D-9162F2DBE85B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="742F2E1D-B260-05CA-4C42-6E3E937220DA" name="Wypozyczalnia PK">
+<createdBy>Admin</createdBy>
+<createdTime>2023-06-17 13:17:39 UTC</createdTime>
+<ownerDesignName>baza</ownerDesignName>
+<engineerTo>
+<item key="5A4A1817-D319-3BFA-83BB-615B42E3DA6A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>269042EA-B7E1-82F9-6212-A2A20E5691D9</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

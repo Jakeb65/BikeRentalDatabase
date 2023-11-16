@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A2E7495F-54D5-12B0-30CF-A3B4BA64FA57" name="h_Dzien_wyp">
+<createdBy>Admin</createdBy>
+<createdTime>2023-06-19 11:43:11 UTC</createdTime>
+<ownerDesignName>hurtownia</ownerDesignName>
+<engineerTo>
+<item key="E887C3ED-EF1C-D44E-5B38-4E26312EEDFD" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="dzien_wyp_id" id="1E8B9373-B123-314E-45D2-97F7C74477D6">
+<createdBy>Admin</createdBy>
+<createdTime>2023-06-19 11:43:18 UTC</createdTime>
+<ownerDesignName>hurtownia</ownerDesignName>
+<engineerTo>
+<item key="E887C3ED-EF1C-D44E-5B38-4E26312EEDFD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dzien" id="B63BFF77-28BD-913C-5D9A-9183B4ED1A0C">
+<createdBy>Admin</createdBy>
+<createdTime>2023-06-19 11:43:25 UTC</createdTime>
+<ownerDesignName>hurtownia</ownerDesignName>
+<engineerTo>
+<item key="E887C3ED-EF1C-D44E-5B38-4E26312EEDFD" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="EC05E913-763F-5D81-6471-88F71C1C16CC" name="Dzien PK">
+<createdBy>Admin</createdBy>
+<createdTime>2023-06-19 11:44:22 UTC</createdTime>
+<ownerDesignName>hurtownia</ownerDesignName>
+<engineerTo>
+<item key="E887C3ED-EF1C-D44E-5B38-4E26312EEDFD" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>1E8B9373-B123-314E-45D2-97F7C74477D6</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

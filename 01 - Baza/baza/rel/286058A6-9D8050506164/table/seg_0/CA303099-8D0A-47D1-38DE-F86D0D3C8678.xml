@@ -1,0 +1,151 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CA303099-8D0A-47D1-38DE-F86D0D3C8678" name="Pracownik">
+<createdBy>Admin</createdBy>
+<createdTime>2023-06-17 11:02:15 UTC</createdTime>
+<generatorID>BB0C52CA-11C4-A16B-EE2B-2A0C24343846</generatorID>
+<ownerDesignName>baza</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="pracownik_id" id="8FB543C2-4EF4-F32D-E2D0-AF75F788AE89">
+<createdBy>Admin</createdBy>
+<createdTime>2023-06-17 11:02:15 UTC</createdTime>
+<generatorID>C8761542-BAF3-7A14-E3A4-A02BA4AFBE06</generatorID>
+<ownerDesignName>baza</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>1BF11A5C-4785-70CA-F27D-9162F2DBE85B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="imie" id="229EBC20-076B-93F4-2467-6C1A8CC469F4">
+<createdBy>Admin</createdBy>
+<createdTime>2023-06-17 11:02:15 UTC</createdTime>
+<generatorID>AF718C10-4BED-2792-F0F5-480A31ED3731</generatorID>
+<ownerDesignName>baza</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>2C646479-B2F2-0424-AE39-1F48C491365C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nazwisko" id="0397C0B7-B56D-C824-A8CF-2ACAD37AD063">
+<createdBy>Admin</createdBy>
+<createdTime>2023-06-17 11:02:15 UTC</createdTime>
+<generatorID>22FBE1BE-2BE3-377C-E1C4-CFA3B8779811</generatorID>
+<ownerDesignName>baza</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>2C646479-B2F2-0424-AE39-1F48C491365C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="data_zatrudnienia" id="E8F54213-39BD-7271-87B6-F13F6C337253">
+<createdBy>Admin</createdBy>
+<createdTime>2023-06-17 11:02:15 UTC</createdTime>
+<generatorID>18A94BCE-367B-48C3-C25B-CA9FB1F79AA5</generatorID>
+<ownerDesignName>baza</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<domain>FF8DD6CA-1261-4C3E-2F78-C25BD7793EA7</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Ulica_ulica_id" id="71203ED2-D517-DE08-EA66-C212C41FCE74">
+<createdBy>Admin</createdBy>
+<createdTime>2023-06-17 11:02:15 UTC</createdTime>
+<generatorID>6B210945-33DF-32FC-344C-DCE5F9B356D7</generatorID>
+<ownerDesignName>baza</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>1BF11A5C-4785-70CA-F27D-9162F2DBE85B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5CDB6D4F-BA67-0F6C-9B64-99C29DEBF37A" referredColumn="09C9E13A-6F26-464D-8C58-9EDA9B753188"/>
+</associations>
+</Column>
+<Column name="Funkcja_funkcja_id" id="8F221C16-FDA7-A34D-15FA-8E9D98A96B3F">
+<createdBy>Admin</createdBy>
+<createdTime>2023-06-17 11:02:15 UTC</createdTime>
+<generatorID>0E14FC31-AF7F-3E18-1038-96B6AEF0FC2A</generatorID>
+<ownerDesignName>baza</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>1BF11A5C-4785-70CA-F27D-9162F2DBE85B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9B60FBD7-6218-FDAA-81D1-0D3C3474DAA6" referredColumn="6ABA95A6-3227-6EF4-A545-07A627264A46"/>
+</associations>
+</Column>
+<Column name="Wypozyczalnia_wypozyczalnia_id" id="4D8E2FE3-1129-1DE6-40E7-3EFAFE8657D4">
+<createdBy>Admin</createdBy>
+<createdTime>2023-06-17 11:02:15 UTC</createdTime>
+<generatorID>8D18325A-EC2C-DFDC-9875-4D32A4999150</generatorID>
+<ownerDesignName>baza</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>1BF11A5C-4785-70CA-F27D-9162F2DBE85B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="72613B8E-376B-8A93-DAFB-B8CF66F988C6" referredColumn="44BB141F-5016-1716-A79B-BC62D672324B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EEC1774E-998A-D20B-B635-116DCFC7A7B1" name="Pracownik_PK">
+<createdBy>Admin</createdBy>
+<createdTime>2023-06-17 11:02:15 UTC</createdTime>
+<generatorID>688B9FC9-B425-F95E-CBAB-D5AE43E791EE</generatorID>
+<ownerDesignName>baza</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8FB543C2-4EF4-F32D-E2D0-AF75F788AE89"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F1219381-64D6-472E-88C9-C8C93B3EAE34" name="Pracownik_Ulica_FK">
+<createdBy>Admin</createdBy>
+<createdTime>2023-06-17 11:02:15 UTC</createdTime>
+<generatorID>8688120F-ED1F-7299-B0E1-800F364F93BA</generatorID>
+<ownerDesignName>baza</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="71203ED2-D517-DE08-EA66-C212C41FCE74"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BDE5B2E3-A73E-FE96-8562-201DD30F5B94" name="Pracownik_Funkcja_FK">
+<createdBy>Admin</createdBy>
+<createdTime>2023-06-17 11:02:15 UTC</createdTime>
+<generatorID>199BA38D-1D92-3FAC-7075-F2DB991F38FF</generatorID>
+<ownerDesignName>baza</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8F221C16-FDA7-A34D-15FA-8E9D98A96B3F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D3661AC3-87C5-619E-F032-275972AEB2A8" name="Pracownik_Wypozyczalnia_FK">
+<createdBy>Admin</createdBy>
+<createdTime>2023-06-17 11:02:15 UTC</createdTime>
+<generatorID>35F531F7-B327-E4C6-5713-98C73E9399DD</generatorID>
+<ownerDesignName>baza</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4D8E2FE3-1129-1DE6-40E7-3EFAFE8657D4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

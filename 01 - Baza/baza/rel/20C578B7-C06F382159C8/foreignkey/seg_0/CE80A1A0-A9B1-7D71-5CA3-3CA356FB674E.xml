@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="CE80A1A0-A9B1-7D71-5CA3-3CA356FB674E" containerWithKeyObject="2CA468B4-6A89-C0FF-5EA2-1C663B2140F2" localFKIndex="67E466A6-3531-6B0A-39CE-DCE7F51C9C9A" name="Rozmiar_ramy_Rozmiar_kol_FK">
+<createdBy>Admin</createdBy>
+<createdTime>2023-06-25 12:39:37 UTC</createdTime>
+<generatorID>C0D8672D-B3B5-63FA-E4BB-F450CA66D110</generatorID>
+<ownerDesignName>baza</ownerDesignName>
+<referredTableLongName>Rozmiar_kol</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>5780756C-DE04-5927-9DA5-F1A35AB32091</referredTableID>
+<keyObject>3EDF0674-CF63-7359-2D63-5A29D870AF14</keyObject>
+<referredKeyID>3EDF0674-CF63-7359-2D63-5A29D870AF14</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>rozmiar_kol_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
